@@ -78,7 +78,9 @@ export default async function ArtworkPage({
               </div>
               <div>
                 <p className="text-white/40">DIMENSIONS</p>
-                <p className="mt-2 text-sm text-white">{artwork.dimensions}</p>
+                <p className="mt-2 text-sm text-white font-sans">
+                  {artwork.dimensions}
+                </p>
               </div>
               <div>
                 <p className="text-white/40">MATERIAL</p>

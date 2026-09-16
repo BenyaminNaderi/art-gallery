@@ -230,6 +230,36 @@ export const artworks: Artwork[] = [
   description:
     "دو نسخه از یک اثر مینیمال با گرادیان نرم؛ یکی سبز و یکی صورتی. هر کدام یکتا و فقط یک‌بار ساخته شده‌اند.",
 },
+{
+  id: 15,
+  slug: "sea-circle",
+  title: "SEA CIRCLE",
+  category: "OBJECTS",
+  year: "2026",
+  price: "۴۰۰٬۰۰۰",
+  thumbnail: "/artworks/sea-circle.jpg",
+  dimensions: "30 × 30 cm",
+  technique: "رنگ روغن روی بوم",
+  material: "بوم پنبه‌ای",
+  availability: "نسخه اصلی موجود",
+  description:
+    "موج‌هایی آرام در قابی دایره‌ای؛ اثری مینیمال و شاعرانه از دریا که با رنگ روغن روی بوم اجرا شده است.",
+},
+{
+  id: 20,
+  slug: "tree-light",
+  title: "TREE LIGHT",
+  category: "FANTASY",
+  year: "2026",
+  price: "۶۰۰٬۰۰۰",
+  thumbnail: "/artworks/tree-light.jpg",
+  dimensions: "متوسط",
+  technique: "رنگ روغن روی بوم",
+  material: "بوم پنبه‌ای",
+  availability: "نسخه اصلی موجود",
+  description:
+    "نوری گرم در دل درخت؛ اثری شاعرانه و فانتزی که حس پناه و راز را با گل‌های آبی و تاریکی جنگل ترکیب می‌کند.",
+},
 ];
 
 export function getArtwork(slug: string) {
