@@ -214,6 +214,22 @@ export const artworks: Artwork[] = [
   description:
     "لحظه‌ای صمیمی بین دو نفر؛ اثری رمانتیک و گرم با پس‌زمینه‌ای صورتی که حس عشق و نزدیکی را با سادگی و لطافت به تصویر می‌کشد.",
 },
+
+{
+  id: 14,
+  slug: "art-piece-01",
+  title: "ART PIECE 01",
+  category: "OBJECTS",
+  year: "2024",
+  price: "۳۰۰٬۰۰۰",
+  thumbnail: "/artworks/art-piece.jpg",
+  dimensions: "20 × 20 cm / 20 × 30 cm",
+  technique: "رنگ روغن روی بوم",
+  material: "بوم پنبه‌ای",
+  availability: "نسخه اصلی موجود",
+  description:
+    "دو نسخه از یک اثر مینیمال با گرادیان نرم؛ یکی سبز و یکی صورتی. هر کدام یکتا و فقط یک‌بار ساخته شده‌اند.",
+},
 ];
 
 export function getArtwork(slug: string) {
